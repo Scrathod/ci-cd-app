@@ -12,6 +12,6 @@ public class App {
 
     @GetMapping
     public ResponseEntity<String> welcome() {
-        return ResponseEntity.ok("Welcome to the Spring Boot Application!");
+        return ResponseEntity.ok("Welcome to the Spring Boot Application! Good Day !!");
     }
 }
